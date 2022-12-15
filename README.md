@@ -2,7 +2,7 @@
 
 ## Overview of Analysis
 
-This analysis was performed and prepared to overlook the stock market for 2017 and 2018. The analysis was ran to determine the total daily volume and stock return by ticker. A stock ticker is a pricing report for certain seecurities and is made up of unique series of letters (https://www.investopedia.com/ask/answers/12/what-is-a-stock-ticker.asp); We have 12 tickers in our dataset, in otherwords, 12 different stocks. With this dataset, we hope to find stock outputs for both 2017 and 2018 for all tickers. By refactoring the previous code used, we hope to limit the excution time of the analysis so that the macro will be able to handle thousands of stocks if needed in the future.
+This analysis was performed and prepared to overlook the stock market for 2017 and 2018. The analysis was ran to determine the total daily volume and stock return by ticker. A stock ticker is a pricing report for certain seecurities and is made up of unique series of letters (https://www.investopedia.com/ask/answers/12/what-is-a-stock-ticker.asp); We have 12 tickers in our dataset, in otherwords, 12 different stocks. With this dataset, we hope to find stock outputs for both 2017 and 2018 for all tickers, with the intention of finding the best stocks to invest in. By refactoring the previous code used, we hope to limit the excution time of the analysis so that the macro will be able to handle thousands of stocks if needed in the future.
 
 ## Results
 ### Analysis
@@ -45,12 +45,12 @@ By examining the previous code, the code must be refactored to make the run-time
 ![image](https://user-images.githubusercontent.com/119131202/207753774-28eefbde-2c06-4245-bac7-9e7efbefe339.png)
 ---
 ---
-With a succesful macro, it has allowed us to examine the daily volume and returns for all stocks in 2017 and 2018. The stocks from 2017 tend to have a higher return when compared to the 2018 stocks. Even the stocks with lower daily volumes had a high return rate. Nearly all stocks in 2017 had a positive return, except the stock ticker "TERP". The 2017 stocks had many stocks that had a return greater that 100%, which allows us to say that the 2017 stocks (except TERP) are good and reccomended. 
+With a succesful macro, it has allowed us to examine the daily volume and returns for all stocks in 2017 and 2018. The stocks from 2017 tend to have a higher return when compared to the 2018 stocks. Even the stocks with lower daily volumes had a high return rate. Nearly all stocks in 2017 had a positive return, except the stock ticker "TERP". The 2017 stocks had many stocks that had a return greater that 100%, which allows us to say that the 2017 stocks (except TERP) are reccomended and you should invest in them. 
 ---
 #### 2017
 ![Stock_Output_2017](https://user-images.githubusercontent.com/119131202/207757849-075fc2c1-d5e0-4f02-ae3c-4af6463742e1.PNG)
 ---
-The stocks in 2018 were nearly all negative except two stocks: "ENPH" and "RUN". These two stocks had a fairly high return, but it's not much when compared to 2017 returns. These two stocks had a large daily volume, which ultimately helped with their return rate. With negative returns, you may want to shy away from buying these stocks in 2018.
+The stocks in 2018 were nearly all negative except two stocks: "ENPH" and "RUN". These two stocks had a fairly high return, but it's not much when compared to 2017 returns. These two stocks had a large daily volume, which ultimately helped with their return rate. With negative returns, you may want to shy away from investing in these stocks in 2018.
 ---
 #### 2018
 ![Stock_Output_2018](https://user-images.githubusercontent.com/119131202/207757878-5feabf4b-fc2c-4870-89bf-7fd4178700a8.PNG)
