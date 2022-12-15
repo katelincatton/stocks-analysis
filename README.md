@@ -6,7 +6,7 @@ This analysis was performed and prepared to overlook the stock market for 2017 a
 
 ## Results
 ### Analysis
-By examining the previous code, the code must be refactored to make the run-time faster. This analysis will describe each step that was taken to create a faster and more efficient macro; This includes a ticker index variable, three output arrays, for loops, if then statements, and much more.
+By examining the previous code, the code must be refactored to make the run-time faster. This analysis will describe each step that was taken to create a faster and more efficient macro; This includes a ticker index variable, three output arrays, for loops, if then statements, and much more. Once the code has been completed, the macro will allow us to analyze the stock outcomes.
 
 #### 1a. Creating a tickerIndex variable and set it equal to zero
 ---
@@ -43,6 +43,13 @@ By examining the previous code, the code must be refactored to make the run-time
 #### 4. Use a for loop to loop through your arrays to output your three arrays
 ---
 ![image](https://user-images.githubusercontent.com/119131202/207753774-28eefbde-2c06-4245-bac7-9e7efbefe339.png)
+---
+---
+With a succesful macro, it has allowed us to examine the daily volume and returns for all stocks in 2017 and 2018. The stocks from 2017 tend to have a higher return when compared the 2018 stocks. Nearly all stocks in 2017 had a positive return, except the stock ticker "TERP". The 2017 stocks had many stocks that had a return greater that 100%, which allows us to say that the 2017 stocks are better. Whereas the stocks in 2018 were nearly all negative except two stocks: "ENPH" and "RUN". These two stocks had a fairly high return, but it's not much when compared to 2017 returns.
+---
+![Stock_Output_2017](https://user-images.githubusercontent.com/119131202/207757849-075fc2c1-d5e0-4f02-ae3c-4af6463742e1.PNG)
+---
+![Stock_Output_2018](https://user-images.githubusercontent.com/119131202/207757878-5feabf4b-fc2c-4870-89bf-7fd4178700a8.PNG)
 ---
 ##Summary
 
